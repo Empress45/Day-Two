@@ -1,2 +1,2 @@
 # Day-Two
-Relearning CSS to make my websites looks their best visually.
+Relearning CSS to make my websites look their best visually.
