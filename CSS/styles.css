@@ -51,21 +51,12 @@ h3 {
 }
 
 ul li::before {
-    content: "\2022";
-    color: rgb(80, 53, 53);
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet*/
+    color: rgb(209, 117, 221);
     font-weight: bold;
-    display: inline-block;
-    width: 1rem;
-    margin-left: -1rem;
-  }
-
-ul li::before {
-    content: "\2022";
-    color: grey;
-    font-weight: bold;
-    display: inline-block;
-    width: 1rem;
-    margin-left: -1rem;
+    display: inline-block; /* Needed to add space */
+    width: 1rem; /* Also needed for space */
+    margin-left: -1rem; /* Also needed for space or tweaking if needed */
 }
 
 p {
