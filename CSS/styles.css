@@ -2,14 +2,14 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #77b1e7;
+    background-color: #a78c18;
 }
 
 img {
-    border: 5px solid purple;
+    border: 5px dotted purple;
 }
 h1 {
-    border: 10px dotted purple;
+    border: 4px dotted purple;
     margin-right: 600px;
 }
 
@@ -18,4 +18,57 @@ blockquote {
     font-size: 2rem;
     font-style: italic;
     text-align: center;
+}
+
+.myway {
+    color: rgb(207, 162, 130);
+}
+
+cite {
+    font-size: 1.5rem;
+    color:rgb(66, 41, 22);
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: #301e38;
+}
+
+h2 {
+    color: #754d75;
+}
+
+h3 {
+    color: #754d75; 
+}
+
+.lite {
+    color: rgb(147, 65, 163);
+}
+
+ul li::before {
+    content: "\2022";
+    color: rgb(80, 53, 53);
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
+  }
+
+ul li::before {
+    content: "\2022";
+    color: grey;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
+}
+
+p {
+    line-height: 1.5rem;
+    color:rgb(147, 65, 163);
 }
