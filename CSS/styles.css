@@ -10,7 +10,8 @@ img {
 }
 h1 {
     border: 4px dotted purple;
-    margin-right: 600px;
+    margin-right: 2px;
+    text-align: center;
 }
 
 blockquote {
@@ -32,6 +33,7 @@ cite {
 .big-bold {
     font-weight: bold;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 h1 {
@@ -39,6 +41,10 @@ h1 {
 }
 
 h2 {
+    color: #754d75
+}
+
+h3 {
     color: #754d75;
 }
 
