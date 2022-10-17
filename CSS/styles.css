@@ -2,18 +2,70 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #77b1e7;
+    background-color: #a78c18;
 }
 
 img {
-    border: 5px solid purple;
+    border: 5px dotted purple;
 }
 h1 {
-    border: 10px dotted purple;
-    margin-right: 600px;
+    border: 4px dotted purple;
+    margin-right: 2px;
+    text-align: center;
 }
 
 blockquote {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.paragraph {
+    color: rgb(207, 162, 130);
+}
+
+cite {
+    font-size: 1.5rem;
+    color:rgb(66, 41, 22);
+}
+
+.big-bold {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h1 {
+    color: #301e38;
+}
+
+h2 {
+    color: #754d75
+}
+
+h3 {
+    color: #754d75;
+}
+
+h3 {
+    color: #754d75; 
+}
+
+.lite {
+    color: rgb(147, 65, 163);
+}
+
+ul li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet*/
+    color: rgb(209, 117, 221);
+    font-weight: bold;
+    display: inline-block; /* Needed to add space */
+    width: 1rem; /* Also needed for space */
+    margin-left: -1rem; /* Also needed for space or tweaking if needed */
+}
+
+p {
+    line-height: 1.5rem;
+    color:rgb(147, 65, 163);
 }
